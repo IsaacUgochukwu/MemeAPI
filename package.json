@@ -1,0 +1,11 @@
+{
+  "name": "memeapi",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "vercel": "^28.2.0"
+  }
+}

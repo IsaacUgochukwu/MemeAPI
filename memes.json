@@ -1,0 +1,78 @@
+{
+"memes": [
+{
+"id": 1,
+"title": "Change My Mind",
+"image": "https://i.imgur.com/3xQKQyT.jpg",
+"description": "A meme featuring a person sitting at a desk with a sign that reads 'Change My Mind'"
+},
+{
+"id": 2,
+"title": "Distracted Boyfriend",
+"image": "https://pics.me.me/distracted-boyfriend-6919329.png",
+"description": "A stock photo of a man looking at another woman while his girlfriend or wife looks on in shock or disgust"
+},
+{
+"id": 3,
+"title": "Disaster Girl",
+"image": "https://i.kym-cdn.com/photos/images/original/001/345/887/5c5.jpg",
+"description": "A meme featuring a young girl smiling in front of a burning house"
+},
+{
+"id": 4,
+"title": "Drake Hotline Bling",
+"image": "https://media1.giphy.com/media/THIMjOqzLQ3XS/giphy.gif",
+"description": "A meme featuring Drake's reactions from his 'Hotline Bling' music video"
+},
+{
+"id": 5,
+"title": "Grumpy Cat",
+"image": "https://i.kym-cdn.com/photos/images/original/000/880/585/109.jpg",
+"description": "A meme featuring a cat with a permanent scowl"
+},
+{
+"id": 6,
+"title": "Keep Calm and Carry On",
+"image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Keep_Calm_and_Carry_On_poster.jpg",
+"description": "A meme featuring a British wartime propaganda poster"
+},
+{
+"id": 7,
+"title": "Nyan Cat",
+"image": "https://i.kym-cdn.com/photos/images/original/000/245/086/0f1.png",
+"description": "A meme featuring a cartoon cat flying through space"
+},
+{
+"id": 8,
+"title": "Pepe the Frog",
+"image": "https://i.kym-cdn.com/photos/images/original/000/532/995/0e8.jpg",
+"description": "A meme featuring a cartoon frog"
+},
+{
+"id": 9,
+"title": "Salt Bae",
+"image": "https://media1.giphy.com/media/LQIBVh8JD64YG/giphy.gif",
+"description": "A meme featuring a chef seasoning meat"
+},
+{
+"id": 10,
+"title": "Success Kid",
+"image": "https://i.kym-cdn.com/photos/images/original/000/880/583/b31.jpg",
+"description": "A meme featuring a young boy with a clenched fist"
+},
+...
+]
+}
+
+Note:
+
+- Image URLs are from Imgur, Giphy, and Wikimedia Commons.
+- URLs may change or expire over time.
+- Be sure to check image licensing terms for commercial use.
+
+Would you like me to:
+
+1. Add more memes?
+2. Include additional metadata?
+3. Organize memes by category?
+4. Provide meme URLs from a specific source?
