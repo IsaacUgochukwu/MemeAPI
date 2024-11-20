@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="Meme Mach, Meme API, Meme Mach, Meme api, meme api, api for meme, Meme Mach***, meme mach***, mach***">
+  <meta name="author" content="Isaac Ugochukwu">
+  <meta name="description" content="Your meme API with over 50+ memes and metadata">
+  <meta property="og:title" content="Meme Mach">
+  <meta property="og:description" content="Your meme API with over 50+ memes and metadata">
+  <meta property="og:url" content="https://memes-api.vercel.app/landingpage/index.html">
+  <meta property="og:image" content="https://memes-api.vercel.app/landingpage/images/bg.png">
+  <title>Meme Mach*** - Meme API</title>
+  <link rel="icon" href="images/saltbae-nobg.png">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="bootstrap.min.css">
+  
+  <!-- ReactJS -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js"
+crossorigin></script>
+ <script src="https://unpkg.com/react-dom@17/umd/react-
+dom.development.js" crossorigin></script>
+ <script 
+src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body class="bg-custom">
+  <div id="root"></div>
+  
+  <!-- React App -->
+  <script type="text/babel">
+    // Components
+    function HeaderTop() {
+      return (
+        <>
+          <nav className="navbar-custom">
+              <img src="images/saltbae-nobg.png" alt="Meme Mach" width="40px" height="40px" />
+              <b><a className="header text-decoration-none primary" href="index.html">Meme Mach***</a></b>
+              <span>&#9776;</span>
+          </nav>
+          <br /> <br /> <br />
+        </>
+      );
+    }
+    
+    function Main() {
+      return (
+        <>
+          <p className="text-center fs-custom"><span className="accent fw-bolder"><b>Meme Mach</b></span> — Get over 50+ popular memes with rich metadata like images and descriptions, easily with no CORS issues.</p><br /><br />
+          <a className="btn-custom" href="#guide">View guide</a>
+          <br /><br />
+        </>
+      );
+    }
+    
+    function MainSecond() {
+      return (
+        <div>
+          <div className="mainsecond-header secondary"><b>Why choose Meme Mach***?</b></div><br />
+          <div className="block">
+            <p className="block-header"><b>Easy and Simple</b></p>
+            <p>Meme Mach is simple and easy to integrate in your awesome project or application!</p>
+          </div>
+          <div className="block">
+            <p className="block-header"><b>No CORS issues</b></p>
+            <p>Meme Mach is designed to reduce CORS issues and errors, in the sense that you can use Meme Mach from your local host or environment.</p>
+          </div>
+          <div className="block">
+            <p className="block-header"><b>Free</b></p>
+            <p>It's free to use with no need of getting API keys or paid subscription.</p>
+          </div><br />
+        </div>
+      );
+    }
+    
+    function Guide() {
+      function copyEndpoint() {
+        try {
+          navigator.clipBoard.writeText("https://memes-api.vercel.app/memes.json");
+        } catch (error) {
+          console.log("Error: " + error);
+        }
+      }
+      
+      return (
+        <>
+        <div className="block-2" id="guide">
+          <h3 className="secondary my-5">Guide on how to use Meme Mach - It's Super Easy</h3>
+          <div className="mx-auto text-secondary">
+            <p className="text-center fs-custom"><b>*</b> Endpoint or URL: <span className="black" onClick={copyEndpoint}>https://memes-api.vercel.app/memes.json</span></p>
+            <br />
+            <p className="text-center fs-custom"><b>*</b> Data format is in JSON format</p>
+            <br />
+            
+            <p className="text-center fs-custom"><b>*</b> All meme data are under one category "meme" and has an array of objects beneath it, you can access them via their array index — <code>data.memes[0]</code></p>
+            <br />
+            
+            <p className="text-center fs-custom"><b>*</b> All the meme objects bears some properties
+              <ul className="d-flex justify-content-center align-items-center flex-column">
+                <li>Title: meme name</li>
+                <li>ID: meme ID number</li>
+                <li>Description: meme description</li>
+                <li>Image: meme image url.</li>
+              </ul>
+            </p>
+            <br /><br />
+            
+            <p className="text-center fs-custom mx-auto"><img src="images/samplecode.png" alt="Sample code" width="100%" height="200px" /></p>
+          </div>
+        </div>
+        </>
+      );
+    }
+    
+    function Footer() {
+      return (
+        <footer>
+        <br /><br />
+         <p className="footer">
+          Created with &hearts; by Isaac Ugochukwu
+          </p>
+          <br /><br />
+        </footer>
+      );
+    }
+    
+    // Root component 
+    function App() {
+      return (
+        <>
+        <HeaderTop />
+        <Main />
+        <MainSecond />
+        <Guide />
+        <Footer />
+        </>
+      );
+    }
+    
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</body>
+</html>

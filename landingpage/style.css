@@ -1,0 +1,143 @@
+/*
+  **FONT IMPORTS**
+*/
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux&display=swap");
+
+/*
+  **COLOR PALETTE --- Tech Professional**
+  - Primary: #3498db (Sky Blue)
+  - Secondary: #2ecc71 (Mint Green)
+  - Background: #f9f9f9 (Light Gray)
+  - Accent: #23b7e5 (Deep Sky Blue)
+  - Text color: #333333 (dark gray)
+*/
+
+/* COLORS */
+.primary {
+  color: #3498db;
+}
+
+.btn-custom {
+  background-color: #3498db;
+  width: 150px;
+  height: 50px;
+  border-radius: 18px;
+  font: inherit;
+  color: white;
+  border: 0;
+  font-weight: bolder;
+  transform: scale(116%);
+  display: block;
+  margin: auto;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-custom:hover, .btn-custom:active, .btn-custom:focus {
+  transform: scale(126%);
+  transition: all ease 0.70s;
+}
+.secondary {
+  color: #2ecc71;
+}
+
+.accent {
+  color: #23b7e5;
+}
+
+.bg-custom {
+  background-color: #f9f9f9;
+}
+
+.text-color {
+  color: #333333;
+}
+
+body {
+  font: 1rem "Afacad Flux", sans-serif;
+}
+
+.header {
+  font: 1.1rem "Pacifico", sans-serif;
+  text-decoration: none;
+}
+
+.navbar-custom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 70px;
+  background-color: whitesmoke;
+  backdrop-filter: blur(3px);
+  border-radius: 1rem;
+  margin-top: 1.5rem;
+}
+
+.fs-custom {
+  font-size: 1.5rem;
+  width: 80%;
+  margin: auto;
+}
+
+.footer {
+  text-align: center;
+}
+
+.block {
+  background-color: whitesmoke;
+  padding: 1rem;
+  margin: 1.5rem auto;
+  border-radius: 1.5rem;
+  width: 80%;
+  height: auto;
+  border: thin solid gray;
+  cursor: pointer;
+  transition: all 0.50s ease;
+}
+
+.block:hover, .block:active, .block:focus {
+  transform: scale(110%);
+}
+
+.block-header {
+  color: ##2ecc71;
+  margin: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.block-2 {
+  background-color: whitesmoke;
+  padding: 1rem;
+  margin: 1.5rem auto;
+  border-radius: 1.5rem;
+  width: 80%;
+  height: auto;
+  border: thin solid gray;
+}
+
+.mainsecond-header {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.fs-custom {
+  font-size: 1.3rem;
+}
+
+.black {
+  background-color: #000;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.50s ease;
+  font: 0.80rem monospace;
+}
